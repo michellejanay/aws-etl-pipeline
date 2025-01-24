@@ -35,9 +35,9 @@ It was the vision of the notional client that:
 
 Confirmation that the entire application has been deployed can be achieved by visiting the AWS Console> CloudFormation Section of the AWS Websire and checking that all components of the stack are described (as described in the illustrations below.) 
 
-![CloudFormation-stack.jpg](https://github.com/generation-de-nat3/de-nat-3-brew-crew-final-project/blob/readme/Read.me_images/CloudFormation-stack.jpg)
-![Etl_stack.jpg](https://github.com/generation-de-nat3/de-nat-3-brew-crew-final-project/blob/readme/Read.me_images/Etl_stack.jpg)
-![deployment-bucket-stack.jpg](https://github.com/generation-de-nat3/de-nat-3-brew-crew-final-project/blob/readme/Read.me_images/deployment-bucket-stack.jpg)
+![CloudFormation Stack](https://github.com/michellejanay/aws-etl-pipeline/blob/main/readme_images/CloudFormation-stack.jpg)
+![ETL Stack](https://github.com/michellejanay/aws-etl-pipeline/blob/main/readme_images/Etl_stack.jpg)
+![Deployment Bucket Stack](https://github.com/michellejanay/aws-etl-pipeline/blob/main/readme_images/deployment-bucket-stack.jpg)
 
 
 ## Triggering the lambda function
@@ -98,7 +98,9 @@ Using Agile methodology we broke the project into sprints and used a ticketing s
 
 If we had more time we would do more testing including checking for edge cases to make sure the system works in all situations and doesn’t break under unexpected conditions.
 
-For future improvements we could add more data analysis like tracking the busiest days of the week or during specific times. We could also set up real-time alerts using SNS to notify the client or engineers about important things like high resource usage or system issues so they can act quickly
+For future improvements we could add more data analysis like tracking the busiest days of the week or during specific times. We could also set up real-time alerts using SNS to notify the client or engineers about important things like high resource usage or system issues so they can act quickly.
+
+Another improvement would be optomising the Python code.
 
 # What did you most enjoy implementing?
 
