@@ -1,0 +1,24 @@
+version: '3.9'
+
+services:
+
+  db:
+    image: docker.io/postgres:latest
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=${POSTGRES_PASS}
+      - POSTGRES_DB=supercafe
+    volumes:
+      - type: volume
+        source: my_db_files
+        target: /var/lib/postgresql/data
+  adminer:
+    image: docker.io/adminer
+    restart: always
+    ports:
+      - 8080:8080
+volumes:
+  my_db_files:
